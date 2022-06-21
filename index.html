@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- CONFIGURAÇÕES -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>KenzieTweet</title>
+</head>
+
+<!-- CORPO -->
+<body>
+    
+    <div class="container">
+        <!-- CABEÇALHO -->
+        <header class="cabecalho">
+
+            <!-- IMGAGEM LOGO -->
+            <figure class="cabecalho__logo">
+                <img src="./assets/img/bird 1.svg" alt="Logo KenzieTweet">
+                <figcaption hidden>Logo KenzieTweet</figcaption>
+            </figure>
+
+            <!-- MENU DE NAVEGAÇÃO -->
+            <nav class="cabecalho__menuNavegacao">
+
+                <!-- LISTA DE LINKS -->
+                <ul class="cabecalho__menuLista">
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Home.png" alt="">
+                        <a href="#">Página Inicial</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Hashtag.png" alt="">
+                        <a href="./assets/visited.html">Explorar</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Notification.png" alt="">
+                        <a href="./assets/notificacoes.html">Notificações</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group.png" alt="">
+                        <a href="./assets/mensagens.html">Mensagens</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group (1).png" alt="">
+                        <a href="./assets/itens.html">Itens salvos</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group (2).png" alt="">
+                        <a href="./assets/listas.html">Listas</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/MyProfilePic.jpg" alt="">
+                        <a href="./assets/perfil.html">Perfil</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group (3).png" alt="">
+                        <a href="./assets/mais.html">mais</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main class="conteudoPrincipal">
+            
+            <!-- TÍTULO -->
+            <h3 class="conteudoPrincipal__titulo">Home</h3>
+
+            <!-- FORMULÁRIO -->
+            <form action="#" class="conteudoPrincipal__formulario">
+                <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+
+                <button type="submit">Tweetar</button>
+            </form>
+
+            <!-- FEED DE NOTÍCIAS -->
+            <section class="conteudoPrincipal__feed">
+
+            <!-- LISTA DE NOTÍCIAS -->
+            <ul class="conteudoPrincipal__listaTweets">
+                <!-- NOTÍCIA -->
+                <li class="conteudoPrincipal__tweet">
+                    <!-- IMGAGEM DO USUÁRIO -->
+                    <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="Daniel">
+
+                    <!-- CAIXA COM INFORMAÇÕES DO USUÁRIO -->
+                    <div class="tweet__conteudo">
+                        <h2>Daniel
+                            <img src="./assets/img/Ticky.png" alt="">
+                        </h2>
+                        <span>@danielkenzie 14s</span>
+                        <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, 
+                            até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. 
+                            É hora de se preparar... <span>#VouSerDev #DoZeroAoCodigo</span>
+                        </p>
+                    </div>
+
+                </li>
+                <!-- NOTÍCIA -->
+                <li class="conteudoPrincipal__tweet">
+                    <!-- IMGAGEM DO USUÁRIO -->
+                    <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (2).png" alt="Hudson">
+
+                    <!-- CAIXA COM INFORMAÇÕES DO USUÁRIO -->
+                    <div class="tweet__conteudo">
+                        <h2>Hudson Carolino</h2>
+                        <span>@hudsoncarolino 14s</span>
+                        <p>98% de <span>#empregabilidade</span>? Só na Kenzie... Pois é, 98% dos alunos formados estão 
+                            trabalhando na área menos de 1 mês após a graduação <span>#ninguemmesegura</span>
+                        </p>
+                    </div>
+
+                </li>
+                <!-- NOTÍCIA -->
+                <li class="conteudoPrincipal__tweet">
+                    <!-- IMGAGEM DO USUÁRIO -->
+                    <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="Maria">
+
+                    <!-- CAIXA COM INFORMAÇÕES DO USUÁRIO -->
+                    <div class="tweet__conteudo">
+                        <h2>Maria Porcina</h2>
+                        <span>@mariap.na 14s</span>
+                        <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele Pode 
+                            ter algumas hashtags também. <span>#likethis</span>
+                        </p>
+                    </div>
+
+                </li>
+            </ul>
+            </section>
+
+        </main>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
